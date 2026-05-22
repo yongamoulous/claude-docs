@@ -697,60 +697,6 @@
     <div class="caption">메모가 있을 때와 없을 때의 첫 응답 차이를 직접 느껴보세요.</div>
   </section>
 
-  <!-- 1-8: Permission 모델 -->
-  <section class="slide">
-    <div class="label">PART 1 · 1-8</div>
-    <h2>Permission 모델 — 어디까지 자동으로 풀까</h2>
-    <div class="four-grid" style="grid-template-columns: 1fr 1fr 1fr; grid-template-rows: 1fr;">
-      <div class="block">
-        <div class="letter">①</div>
-        <div class="name">Plan mode</div>
-        <div class="desc">먼저 계획만 보여주고 승인받음. <strong>처음 1-2주 권장.</strong></div>
-      </div>
-      <div class="block">
-        <div class="letter">②</div>
-        <div class="name">Ask (기본)</div>
-        <div class="desc">파일 수정·실행 등 중요한 일은 매번 묻기. 안전하지만 느림.</div>
-      </div>
-      <div class="block">
-        <div class="letter">③</div>
-        <div class="name">Auto-accept</div>
-        <div class="desc">알아서 하고 결과 보고. 빠르지만 신뢰 쌓인 다음에.</div>
-      </div>
-    </div>
-    <div class="highlight">
-      처음엔 Plan mode → 1-2주 후 Ask → 익숙한 작업만 Auto. <strong>순서가 중요합니다.</strong>
-    </div>
-  </section>
-
-  <!-- 1-9: 안전 감각 -->
-  <section class="slide">
-    <div class="label">PART 1 · 1-9</div>
-    <h2>안전 감각 — 자동 OK vs 매번 묻기</h2>
-    <div class="two-col">
-      <div class="col-card good">
-        <h3>자동으로 풀어도 OK</h3>
-        <ul>
-          <li>파일 <strong>읽기</strong>·검색·분석</li>
-          <li>초안·요약·번역 작성</li>
-          <li>새 파일 만들기 (덮어쓰기 X)</li>
-        </ul>
-      </div>
-      <div class="col-card bad">
-        <h3>항상 묻게 두기</h3>
-        <ul>
-          <li>파일·폴더 <strong>삭제</strong></li>
-          <li>외부에 메시지 전송 (메일·톡·SNS)</li>
-          <li>결제·예약·계약 관련</li>
-          <li>데이터베이스·서비스 설정 변경</li>
-        </ul>
-      </div>
-    </div>
-    <div class="highlight">
-      <strong>되돌릴 수 없는 일</strong>은 매번 묻게 두세요. 1초 느려져도 그게 안전망입니다.
-    </div>
-  </section>
-
   <!-- ============= PART 2 ============= -->
 
   <!-- Divider -->
@@ -1239,6 +1185,44 @@
     <div class="highlight" style="margin-top: 16px;">
       <strong>→ 활용 패턴:</strong> Part 4 회고를 매일 하기 어렵다면, <strong>월 1회 <code>/insights</code></strong>로 자동 회고.<br>
       <span style="color: var(--ink-mute); font-size: 0.88em; margin-top: 6px; display: block;">모든 데이터는 본인 컴퓨터에만 — 외부 전송 없음.</span>
+    </div>
+  </section>
+
+  <!-- 5-6: FAQ6 — 권한과 안전 -->
+  <section class="slide">
+    <div class="label">PART 5 · FAQ 6</div>
+    <h2>"Claude가 내 파일을 함부로 건드릴까요?"</h2>
+    <p class="lead">권한 모델 3가지 + 안전 감각으로 막을 수 있습니다.</p>
+    <div class="two-col">
+      <div class="col-card good">
+        <h3>3 모드 — 처음엔 Plan</h3>
+        <ul>
+          <li><strong>Plan mode</strong> — 실행 전 계획만 보여줌 <span style="color:var(--ink-mute); font-size:0.85em;">(처음 1-2주 권장)</span></li>
+          <li><strong>Ask (기본)</strong> — 중요한 일은 매번 묻기</li>
+          <li><strong>Auto-accept</strong> — 알아서 진행 <span style="color:var(--ink-mute); font-size:0.85em;">(익숙한 작업만)</span></li>
+        </ul>
+        <p style="font-size:0.85rem; color:var(--ink-mute); margin-top:8px;">진입: <code>Shift + Tab</code> 두 번</p>
+      </div>
+      <div class="col-card bad">
+        <h3>되돌릴 수 없는 일은 매번 묻기</h3>
+        <ul>
+          <li>자동 OK: <strong>읽기·검색·분석·초안</strong></li>
+          <li>매번 묻기: <strong>삭제·외부 전송·결제·DB 변경</strong></li>
+        </ul>
+        <p style="font-size:0.9rem; color:var(--ink-soft); margin-top:8px;">1초 느려져도 <strong>그게 안전망</strong>입니다.</p>
+      </div>
+    </div>
+    <div class="caption">처음엔 Plan mode → 1-2주 후 Ask → 익숙한 작업만 Auto. <strong>순서가 중요합니다.</strong></div>
+  </section>
+
+  <!-- E.O.D -->
+  <section class="slide" style="justify-content: center; align-items: center; text-align: center;">
+    <div class="label" style="text-align: center;">E.O.D</div>
+    <h1 style="font-size: clamp(4rem, 8vw, 6rem); color: var(--accent); margin-bottom: 32px;">End of Document</h1>
+    <p style="font-size: clamp(1.2rem, 1.8vw, 1.6rem); color: var(--ink-soft); text-align: center;">고생하셨습니다.<br>다음 주에 1개 옮기고, 막힘 1개 회고하기.</p>
+    <div style="color: var(--ink-mute); font-size: 0.95rem; letter-spacing: 0.05em; margin-top: 60px;">
+      yongamoulous<br>
+      <a href="https://yongamoulous.github.io/claude-docs/" style="color: var(--accent); text-decoration: none;">yongamoulous.github.io/claude-docs</a>
     </div>
   </section>
 
