@@ -16,3 +16,8 @@ desktop.ini
 # Local config
 .env
 .env.local
+
+# Playwright MCP artifacts (작업용 임시 파일)
+.playwright-mcp/
+live-cover.png
+*.screenshot.png
