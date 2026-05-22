@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Claude Code 입문 워크숍 — Part 0 & 1</title>
+<title>Claude Code 입문 워크숍 — CLAUDE 개론</title>
 <style>
   :root {
     --bg: #fafaf7;
@@ -961,25 +961,26 @@
     <div class="caption">빌트인은 영어, 커스텀은 <strong>한글도 OK</strong>. 자기가 쓰기 편한 이름으로.</div>
   </section>
 
-  <!-- 3-3: 커스텀 슬래시 만들기 -->
+  <!-- 3-3: 커스텀 슬래시·Skill 만들기 - Claude에게 맡기기 -->
   <section class="slide">
     <div class="label">PART 3 · 3-3</div>
-    <h2>커스텀 슬래시 만들기 — 파일 하나면 끝</h2>
-    <ol class="numbered">
-      <li>본인 폴더 안에 <code>.claude/commands/</code> 폴더 만들기</li>
-      <li>그 안에 <code>내명령.md</code> 파일 만들기 <span style="color: var(--ink-mute); font-size: 0.85em;">(한글 파일명 OK)</span></li>
-      <li>그 파일에 평소 의뢰하던 내용 적기 — <strong>Part 2 Level 4 완성본 그대로</strong></li>
-      <li>다음부터 터미널에 <code>/내명령</code> 한 줄로 호출</li>
+    <h2>직접 만들지 마세요 — Claude에게 시키세요</h2>
+    <p class="lead">프로세스는 단 두 단계.</p>
+    <ol class="numbered" style="margin-top: 8px;">
+      <li><strong>'자주 하던 일'을 평소처럼 한 번 수행</strong>한다<br>
+        <span style="color: var(--ink-mute); font-size: 0.88em;">— Part 2의 자료·맥락 던지기 흐름 그대로</span>
+      </li>
+      <li>마치고 나서 Claude에게: <strong>"이 업무 수행을 Skill로 만들어 줘"</strong><br>
+        <span style="color: var(--ink-mute); font-size: 0.88em;">— 한 줄이면 됩니다</span>
+      </li>
     </ol>
-    <pre># 거래처 메일 작성
-
-너는 B2B 영업 15년차야.
-거래처에 보낼 메일을 다음 톤으로 작성:
-- 격식 + 친근함 중간
-- 100-150자
-- 사과 + 보상안이 필요하면 1개 명확히
-
-상황: [여기에 구체 상황 입력]</pre>
+    <div class="highlight" style="margin-top: 20px;">
+      <strong>Claude가 알아서:</strong><br>
+      · 적절한 위치(<code>.claude/commands/</code> 또는 <code>.claude/skills/</code>)에 파일 작성<br>
+      · 가변 부분(고객명·날짜·금액 등)을 빈칸으로 처리<br>
+      · 다음부터 <code>/명령어</code> 한 줄로 호출 가능
+    </div>
+    <div class="caption">폴더 구조·파일명·문법 신경 쓸 필요 없습니다. <strong>본인 일에만 집중하면 됩니다.</strong></div>
   </section>
 
   <!-- 3-4: 슬래시 후보 예시 -->
@@ -1261,7 +1262,7 @@
 
 <div class="footer">
   <div id="counter">1 / 18</div>
-  <div id="title-mini" style="color: var(--ink-soft);">Claude Code 입문 워크숍 — Part 0 & 1</div>
+  <div id="title-mini" style="color: var(--ink-soft);">Claude Code 입문 워크숍 — CLAUDE 개론</div>
   <div class="nav-btns">
     <button id="prev" title="이전 (←)">‹</button>
     <button id="next" title="다음 (→)">›</button>

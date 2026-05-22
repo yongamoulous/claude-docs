@@ -1,0 +1,345 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner "Global Navigation Menu" [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - button "Open menu" [ref=e12] [cursor=pointer]:
+            - img [ref=e13]
+          - link "Homepage (g then d)" [ref=e15] [cursor=pointer]:
+            - /url: /
+            - img [ref=e16]
+        - generic [ref=e18]:
+          - navigation "Breadcrumbs" [ref=e19]:
+            - list [ref=e20]:
+              - listitem [ref=e21]:
+                - link "yongamoulous" [ref=e22] [cursor=pointer]:
+                  - /url: /yongamoulous
+                  - generic [ref=e23]: yongamoulous
+              - listitem [ref=e24]:
+                - link "claude-docs" [ref=e25] [cursor=pointer]:
+                  - /url: /yongamoulous/claude-docs
+                  - generic [ref=e26]: claude-docs
+          - button "Search or jump to…" [ref=e29] [cursor=pointer]:
+            - generic [ref=e30]:
+              - generic:
+                - img
+              - generic [ref=e31]:
+                - generic:
+                  - text: Type
+                  - generic: /
+                  - text: to search
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e36]:
+              - link "Chat with Copilot" [ref=e38] [cursor=pointer]:
+                - /url: /copilot
+                - img [ref=e39]
+              - button "Open Copilot…" [ref=e43] [cursor=pointer]:
+                - generic:
+                  - img
+            - button "Create new..." [ref=e45] [cursor=pointer]:
+              - generic [ref=e46]:
+                - generic:
+                  - img
+              - generic:
+                - img
+            - generic [ref=e47]:
+              - link "All issues" [ref=e48] [cursor=pointer]:
+                - /url: /issues
+                - img [ref=e49]
+              - link "All pull requests" [ref=e52] [cursor=pointer]:
+                - /url: /pulls
+                - img [ref=e53]
+              - link "All repositories" [ref=e55] [cursor=pointer]:
+                - /url: /repos
+                - img [ref=e56]
+          - link "You have no unread notifications (g then n)" [ref=e58] [cursor=pointer]:
+            - /url: /notifications
+            - img [ref=e59]
+          - button "Open user navigation menu" [ref=e62] [cursor=pointer]:
+            - img "User avatar" [ref=e63]
+      - heading "Repository navigation" [level=2] [ref=e64]
+      - navigation "Repository" [ref=e65]:
+        - list [ref=e66]:
+          - listitem [ref=e67]:
+            - link "Code" [ref=e68] [cursor=pointer]:
+              - /url: /yongamoulous/claude-docs
+              - img [ref=e70]
+              - generic [ref=e72]: Code
+          - listitem [ref=e73]:
+            - link "Issues" [ref=e74] [cursor=pointer]:
+              - /url: /yongamoulous/claude-docs/issues
+              - img [ref=e76]
+              - generic [ref=e79]: Issues
+          - listitem [ref=e80]:
+            - link "Pull requests" [ref=e81] [cursor=pointer]:
+              - /url: /yongamoulous/claude-docs/pulls
+              - img [ref=e83]
+              - generic [ref=e85]: Pull requests
+          - listitem [ref=e86]:
+            - link "Actions" [ref=e87] [cursor=pointer]:
+              - /url: /yongamoulous/claude-docs/actions
+              - img [ref=e89]
+              - generic [ref=e91]: Actions
+          - listitem [ref=e92]:
+            - link "Projects" [ref=e93] [cursor=pointer]:
+              - /url: /yongamoulous/claude-docs/projects
+              - img [ref=e95]
+              - generic [ref=e97]: Projects
+          - listitem [ref=e98]:
+            - link "Wiki" [ref=e99] [cursor=pointer]:
+              - /url: /yongamoulous/claude-docs/wiki
+              - img [ref=e101]
+              - generic [ref=e103]: Wiki
+          - listitem [ref=e104]:
+            - link "Security and quality" [ref=e105] [cursor=pointer]:
+              - /url: /yongamoulous/claude-docs/security
+              - img [ref=e107]
+              - generic [ref=e109]: Security and quality
+          - listitem [ref=e110]:
+            - link "Insights" [ref=e111] [cursor=pointer]:
+              - /url: /yongamoulous/claude-docs/pulse
+              - img [ref=e113]
+              - generic [ref=e115]: Insights
+          - listitem [ref=e116]:
+            - link "Settings" [ref=e117] [cursor=pointer]:
+              - /url: /yongamoulous/claude-docs/settings
+              - img [ref=e119]
+              - generic [ref=e121]: Settings
+    - region "Warning" [ref=e123]:
+      - img [ref=e125]
+      - paragraph [ref=e128]: Please configure another 2FA method to reduce your risk of permanent account lockout. If you use SMS for 2FA, we strongly recommend against SMS as it is prone to fraud and delivery may be unreliable depending on your region.
+      - generic [ref=e130]:
+        - link "View 2FA settings" [ref=e131] [cursor=pointer]:
+          - /url: https://github.com/settings/security?notice=low_two_factor_methods
+          - generic [ref=e133]: View 2FA settings
+        - button "Dismiss low two factor methods notice" [ref=e135] [cursor=pointer]:
+          - img [ref=e136]
+  - main [ref=e140]:
+    - generic [ref=e142]:
+      - 'heading "Settings: yongamoulous/claude-docs" [level=1] [ref=e143]'
+      - generic [ref=e145]:
+        - navigation "General settings" [ref=e148]:
+          - list [ref=e150]:
+            - listitem [ref=e151]:
+              - link "General" [ref=e152] [cursor=pointer]:
+                - /url: /yongamoulous/claude-docs/settings
+                - generic:
+                  - img
+                - generic [ref=e153]: General
+            - listitem [ref=e154]
+            - listitem [ref=e155]:
+              - generic [ref=e158]:
+                - heading "Access" [level=2] [ref=e160]
+                - list "Access" [ref=e161]:
+                  - listitem [ref=e162]:
+                    - link "Collaborators" [ref=e163] [cursor=pointer]:
+                      - /url: /yongamoulous/claude-docs/settings/access
+                      - generic:
+                        - img
+                      - generic [ref=e164]: Collaborators
+                  - listitem [ref=e165]:
+                    - button "Moderation options" [ref=e166] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic [ref=e167]: Moderation options
+                      - generic:
+                        - img
+            - listitem [ref=e168]
+            - listitem [ref=e169]:
+              - generic [ref=e172]:
+                - heading "Code and automation" [level=2] [ref=e174]
+                - list "Code and automation" [ref=e175]:
+                  - listitem [ref=e176]:
+                    - link "Branches" [ref=e177] [cursor=pointer]:
+                      - /url: /yongamoulous/claude-docs/settings/branches
+                      - generic:
+                        - img
+                      - generic [ref=e178]: Branches
+                  - listitem [ref=e179]:
+                    - link "Tags" [ref=e180] [cursor=pointer]:
+                      - /url: /yongamoulous/claude-docs/settings/tag_protection
+                      - generic:
+                        - img
+                      - generic [ref=e181]: Tags
+                  - listitem [ref=e182]:
+                    - button "Rules" [ref=e183] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic [ref=e184]: Rules
+                      - generic:
+                        - img
+                  - listitem [ref=e185]:
+                    - button "Actions" [ref=e186] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic [ref=e187]: Actions
+                      - generic:
+                        - img
+                  - listitem [ref=e188]:
+                    - link "Models Preview feature" [ref=e189] [cursor=pointer]:
+                      - /url: /yongamoulous/claude-docs/settings/models/access-policy
+                      - generic:
+                        - img
+                      - generic [ref=e190]: Models
+                      - generic:
+                        - generic "Preview feature": Preview
+                  - listitem [ref=e191]:
+                    - link "Webhooks" [ref=e192] [cursor=pointer]:
+                      - /url: /yongamoulous/claude-docs/settings/hooks
+                      - generic:
+                        - img
+                      - generic [ref=e193]: Webhooks
+                  - listitem [ref=e194]:
+                    - button "Copilot" [ref=e195] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic [ref=e196]: Copilot
+                      - generic:
+                        - img
+                  - listitem [ref=e197]:
+                    - link "Environments" [ref=e198] [cursor=pointer]:
+                      - /url: /yongamoulous/claude-docs/settings/environments
+                      - generic:
+                        - img
+                      - generic [ref=e199]: Environments
+                  - listitem [ref=e200]:
+                    - link "Codespaces" [ref=e201] [cursor=pointer]:
+                      - /url: /yongamoulous/claude-docs/settings/codespaces
+                      - generic:
+                        - img
+                      - generic [ref=e202]: Codespaces
+                  - listitem [ref=e203]:
+                    - link "Pages" [ref=e204] [cursor=pointer]:
+                      - /url: /yongamoulous/claude-docs/settings/pages
+                      - generic:
+                        - img
+                      - generic [ref=e205]: Pages
+            - listitem [ref=e206]
+            - listitem [ref=e207]:
+              - generic [ref=e210]:
+                - heading "Security and quality" [level=2] [ref=e212]
+                - list "Security and quality" [ref=e213]:
+                  - listitem [ref=e214]:
+                    - link "Advanced Security" [ref=e215] [cursor=pointer]:
+                      - /url: /yongamoulous/claude-docs/settings/security_analysis
+                      - generic:
+                        - img
+                      - generic [ref=e216]: Advanced Security
+                  - listitem [ref=e217]:
+                    - link "Deploy keys" [ref=e218] [cursor=pointer]:
+                      - /url: /yongamoulous/claude-docs/settings/keys
+                      - generic:
+                        - img
+                      - generic [ref=e219]: Deploy keys
+                  - listitem [ref=e220]:
+                    - button "Secrets and variables" [ref=e221] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic [ref=e222]: Secrets and variables
+                      - generic:
+                        - img
+            - listitem [ref=e223]
+            - listitem [ref=e224]:
+              - generic [ref=e227]:
+                - heading "Integrations" [level=2] [ref=e229]
+                - list "Integrations" [ref=e230]:
+                  - listitem [ref=e231]:
+                    - link "GitHub Apps" [ref=e232] [cursor=pointer]:
+                      - /url: /yongamoulous/claude-docs/settings/installations
+                      - generic:
+                        - img
+                      - generic [ref=e233]: GitHub Apps
+                  - listitem [ref=e234]:
+                    - link "Email notifications" [ref=e235] [cursor=pointer]:
+                      - /url: /yongamoulous/claude-docs/settings/notifications
+                      - generic:
+                        - img
+                      - generic [ref=e236]: Email notifications
+        - generic [ref=e239]:
+          - heading "GitHub Pages" [level=2] [ref=e241]
+          - paragraph [ref=e242]:
+            - link "GitHub Pages" [ref=e243] [cursor=pointer]:
+              - /url: https://pages.github.com
+            - text: is designed to host your personal, organization, or project pages from a GitHub repository.
+          - heading "Build and deployment" [level=2] [ref=e244]
+          - generic [ref=e245]:
+            - generic [ref=e246]:
+              - text: Source
+              - button "Source Deploy from a branch" [ref=e250] [cursor=pointer]:
+                - generic [ref=e252]: Deploy from a branch
+                - generic:
+                  - img
+            - generic [ref=e255]:
+              - strong [ref=e256]: Branch
+              - paragraph [ref=e257]:
+                - text: GitHub Pages is currently disabled. Select a source below to enable GitHub Pages for this repository.
+                - link "Learn more about configuring the publishing source for your site" [ref=e258] [cursor=pointer]:
+                  - /url: https://docs.github.com/articles/configuring-a-publishing-source-for-github-pages/
+                - text: .
+              - generic [ref=e259]:
+                - button "main" [active] [ref=e337] [cursor=pointer]:
+                  - generic [ref=e264]:
+                    - generic:
+                      - img
+                    - generic [ref=e265]: main
+                  - generic:
+                    - img
+                - button "/ (root)" [ref=e341] [cursor=pointer]:
+                  - generic [ref=e342]:
+                    - generic:
+                      - img
+                    - generic [ref=e343]: / (root)
+                  - generic:
+                    - img
+                - button "Save" [ref=e266] [cursor=pointer]
+              - paragraph
+          - generic [ref=e267]:
+            - generic [ref=e268]:
+              - heading "Visibility" [level=3] [ref=e269]
+              - generic [ref=e270]: GitHub Enterprise
+            - paragraph [ref=e271]:
+              - text: With a GitHub Enterprise account, you can restrict access to your GitHub Pages site by publishing it privately. You can use privately published sites to share your internal documentation or knowledge base with members of your enterprise. You can try GitHub Enterprise risk-free for 30 days.
+              - link "Learn more about the visibility of your GitHub Pages site." [ref=e272] [cursor=pointer]:
+                - /url: https://docs.github.com/pages/getting-started-with-github-pages/changing-the-visibility-of-your-github-pages-site
+            - link "Start free for 30 days" [ref=e273] [cursor=pointer]:
+              - /url: /account/enterprises/new
+              - generic [ref=e275]: Start free for 30 days
+  - contentinfo [ref=e276]:
+    - heading "Footer" [level=2] [ref=e277]
+    - generic [ref=e278]:
+      - generic [ref=e279]:
+        - link "GitHub Homepage" [ref=e280] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e281]
+        - generic [ref=e283]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e284]:
+        - heading "Footer navigation" [level=3] [ref=e285]
+        - list "Footer navigation" [ref=e286]:
+          - listitem [ref=e287]:
+            - link "Terms" [ref=e288] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e289]:
+            - link "Privacy" [ref=e290] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e291]:
+            - link "Security" [ref=e292] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e293]:
+            - link "Status" [ref=e294] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e295]:
+            - link "Community" [ref=e296] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e297]:
+            - link "Docs" [ref=e298] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e299]:
+            - link "Contact" [ref=e300] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e301]:
+            - button "Manage cookies" [ref=e303] [cursor=pointer]
+          - listitem [ref=e304]:
+            - button "Do not share my personal information" [ref=e306] [cursor=pointer]
